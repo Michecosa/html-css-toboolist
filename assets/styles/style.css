@@ -11,3 +11,31 @@
   --simbol-check: #69c2ac;
   --simbol-cross: #ef6c64;
 }
+
+body {
+  margin: 0;
+  background-color: var(--background-color); 
+}
+
+header {
+  display: block;
+  background-color: white;
+  text-align: middle;
+  padding-block: 1rem;
+}
+
+header img,
+header h1 {
+  display: inline-block;
+  vertical-align: middle; /* centra verticalmente */
+}
+
+header img {
+  margin-left: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
