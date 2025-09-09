@@ -105,8 +105,7 @@ header h1 {
   font-size: 24px;
 }
 
-.sign-check,
-.sign-cross {
+.task-status {
   display: inline-block;
   width: 24px;          
   height: 24px;        
@@ -128,41 +127,18 @@ header h1 {
   color: var(--simbol-cross);
 }
 
-.editorial, 
-.sales,
-.website,
-.mobile,
-.recruiting,
-.q1-goals {
+.task-bubble {
   border-radius: 14px;
   color: white;
   font-size: 14px;
   font-weight: bold;
-  margin-left:0.3rem;
-  padding-block:0.6rem;
-  padding-inline:1rem;
+  margin-left: 0.3rem;
+  padding: 0.6rem 1rem;
 }
 
-.editorial {
-  background-color: var(--button-blue);
-}
-
-.sales {
-  background-color: var(--button-lime);
-}
-
-.website {
-  background-color: var(--button-purple);
-}
-
-.mobile {
-  background-color: var(--button-orange);
-}
-
-.recruiting {
-  background-color: var(--button-aquamarine);
-}
-
-.q1-goals {
-  background-color: var(--button-pink);
-}
+.editorial {background-color: var(--button-blue);}
+.sales {background-color: var(--button-lime);}
+.website {background-color: var(--button-purple);}
+.mobile {background-color: var(--button-orange);}
+.recruiting {background-color: var(--button-aquamarine);}
+.q1-goals {background-color: var(--button-pink);}
