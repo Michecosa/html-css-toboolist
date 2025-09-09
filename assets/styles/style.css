@@ -15,6 +15,7 @@
 body {
   margin: 0;
   background-color: var(--background-color); 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -36,13 +37,36 @@ header img {
 
 header h1 {
   font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 main {
-  width: 80%;
+  background-color: white;
+  border-radius: 8px;
+  width: 75%;
   margin: 0 auto;
   margin-top: 4rem;
-  background-color: lightblue;
+  padding-inline: 3.4rem;
+  padding-block: 1.5rem;
+}
+
+.button-add-task,
+.button-add-section {
+  border-radius: 7px;
+  height: 35px;
+  padding-inline: 12px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.button-add-task {
+  background-color: var(--button-blue);
+  border-color: var(--button-blue);
+  color: white;
+}
+
+.button-add-section {
+  background-color: transparent;
+  border-color: var(--button-gray);
+  color: var(--button-gray)
 }
