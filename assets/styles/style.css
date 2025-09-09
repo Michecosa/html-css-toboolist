@@ -15,7 +15,7 @@
 body {
   margin: 0;
   background-color: var(--background-color); 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -83,4 +83,33 @@ header h1 {
   background-color: transparent;
   border-color: var(--button-gray);
   color: var(--button-gray)
+}
+
+.task-session div {
+  margin-block: 20px;
+}
+
+.task-session h1 {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.sign-check,
+.sign-cross {
+  display: inline-block;
+  width: 20px;          
+  height: 20px;        
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;   
+}
+
+.sign-check {
+  border-color: var(--simbol-check);
+  color: var(--simbol-check);
+}
+
+.sign-cross {
+  border-color: var(--simbol-cross);
+  color: var(--simbol-cross);
 }
